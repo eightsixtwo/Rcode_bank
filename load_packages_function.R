@@ -1,9 +1,9 @@
 # This code creates a function that takes a character vector of package names, checks to see if 
 # they are installed and installs any that are not.  It then loads all packages into the worskspace.
 
-# Why bother?  Well, simply putting a package name in the function will check to see if it is installed,
-# install it if not and then loads it into the workspace.  Installing and loading usually need two separate
-# steps - install.packages() and library/require.  The function only requires a single step to do everything.
+# Why bother?  Well, simply put a package name into the function and it will check to see if it is installed,
+# install it if not and then load it into the workspace.  Installing and loading usually needs two separate
+# steps - install.packages() and library/require().  Our function only requires a single step to do everything! =)
 
 # 1. Create vector - add any necessary package names needed.
 list_of_packages <- c("rvest", "dplyr", "httr", "xml2", "jsonlite", 
